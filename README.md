@@ -19,6 +19,8 @@ postal voting**.
 
 ![State-level forecast: combined vs. urn vs. postal, with 95% bootstrap intervals](results/state/forecast_by_mode.png)
 
+German version: [`results/state/forecast_by_mode_de.png`](results/state/forecast_by_mode_de.png).
+
 Full numbers: [`results/state/combined.csv`](results/state/combined.csv),
 [`urn.csv`](results/state/urn.csv), [`postal.csv`](results/state/postal.csv) — and the
 same combined/urn/postal split one level down, per Wahlkreis, in
