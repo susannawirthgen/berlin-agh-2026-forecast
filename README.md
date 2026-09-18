@@ -31,7 +31,8 @@ same combined/urn/postal split one level down, per Wahlkreis, in
 This is a **district-level regression forecast**, not a poll aggregator: it predicts each
 of Berlin's polling districts individually based on a district's own electoral history and
 socio-demographic profile, then aggregates up to Wahlkreis and state level — separately
-for urn and postal.
+for urn and postal voting. Each party is predicted by a separate model. Consequently, the sums
+of vote shares might not be 100%.
 
 - **Training data**: a harmonized panel of 8 prior Berlin-area elections (Abgeordnetenhaus,
   Bundestag, and European Parliament elections held in Berlin, 2016–2025), each reallocated
